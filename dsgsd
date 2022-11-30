@@ -2,6 +2,16 @@ getgenv().InviteCode = "wSjHbHM9j9"
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main/Discord-Auto-Join.lua"))()
 
+local settings = {
+ 
+   fillcolor = Color3.fromRGB(255, 255, 255);
+   filltransparency = .75;
+ 
+   outlinecolor = Color3.fromRGB(255, 255, 255);
+   outlinetransparency = 0;
+ 
+}
+
 -- variables
 local players = game:GetService("Players");
 local localplayer = players.LocalPlayer;
